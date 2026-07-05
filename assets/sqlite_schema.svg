@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640">
+<style>
+.box{fill:#f8fafc;stroke:#0f766e;stroke-width:2;rx:16}.head{fill:#0f766e}.htext{font:bold 20px Arial;fill:white}.text{font:16px Arial;fill:#0f172a}.line{stroke:#64748b;stroke-width:2;marker-end:url(#arrow)}
+</style><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+<rect width="1100" height="640" fill="white"/>
+<text x="550" y="45" text-anchor="middle" font="bold 30px Arial" fill="#0f172a">Bacterial StressomeDB SQLite Schema</text>
+<g transform="translate(70,90)"><rect class="box" width="280" height="190"/><rect class="head" width="280" height="48" rx="16"/><text class="htext" x="20" y="31">metadata</text><text class="text" x="20" y="80">stressome_id</text><text class="text" x="20" y="110">gene_symbol</text><text class="text" x="20" y="140">protein_name</text><text class="text" x="20" y="170">organism, category, evidence</text></g>
+<g transform="translate(420,90)"><rect class="box" width="280" height="160"/><rect class="head" width="280" height="48" rx="16"/><text class="htext" x="20" y="31">protein_sequences</text><text class="text" x="20" y="80">stressome_id</text><text class="text" x="20" y="110">sequence</text><text class="text" x="20" y="140">length, md5</text></g>
+<g transform="translate(770,90)"><rect class="box" width="250" height="135"/><rect class="head" width="250" height="48" rx="16"/><text class="htext" x="20" y="31">release_info</text><text class="text" x="20" y="82">version</text><text class="text" x="20" y="112">statistics</text></g>
+<g transform="translate(230,360)"><rect class="box" width="260" height="140"/><rect class="head" width="260" height="48" rx="16"/><text class="htext" x="20" y="31">stress_categories</text><text class="text" x="20" y="82">stressome_id</text><text class="text" x="20" y="112">category</text></g>
+<g transform="translate(610,360)"><rect class="box" width="260" height="140"/><rect class="head" width="260" height="48" rx="16"/><text class="htext" x="20" y="31">evidence_sources</text><text class="text" x="20" y="82">stressome_id</text><text class="text" x="20" y="112">source</text></g>
+<g transform="translate(420,540)"><rect class="box" width="280" height="70"/><rect class="head" width="280" height="40" rx="16"/><text class="htext" x="20" y="27">metadata_fts</text><text class="text" x="20" y="62">full text search index</text></g>
+<line class="line" x1="350" y1="170" x2="420" y2="170"/><line class="line" x1="210" y1="280" x2="300" y2="360"/><line class="line" x1="300" y1="280" x2="650" y2="360"/><line class="line" x1="205" y1="280" x2="480" y2="540"/>
+</svg>

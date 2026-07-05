@@ -1,0 +1,11 @@
+[project]
+name = "stressomedb"
+version = "1.0.0"
+description = "Lightweight SQLite query utility for Bacterial StressomeDB"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Adeel Farooq"}]
+
+[project.scripts]
+stressomedb = "stressomedb.cli:main"

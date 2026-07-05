@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
+  <rect width="900" height="240" rx="30" fill="#07111f"/>
+  <circle cx="90" cy="120" r="48" fill="url(#g)" opacity="0.95"/>
+  <text x="90" y="136" text-anchor="middle" font-size="54" font-family="Arial">🦠</text>
+  <text x="165" y="104" font-size="46" font-weight="700" fill="#e5e7eb" font-family="Arial, Helvetica, sans-serif">Bacterial StressomeDB</text>
+  <text x="168" y="150" font-size="24" fill="#93c5fd" font-family="Arial, Helvetica, sans-serif">Curated SQLite resource for bacterial stress response systems</text>
+  <text x="168" y="184" font-size="18" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif">stress response proteins • infection fitness • comparative stressomics</text>
+</svg>

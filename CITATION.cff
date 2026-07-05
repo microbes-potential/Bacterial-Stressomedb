@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use Bacterial StressomeDB, please cite this resource."
+title: "Bacterial StressomeDB: a curated SQLite resource for bacterial stress response systems"
+version: "1.0"
+date-released: "2026-07-05"
+authors:
+  - family-names: Farooq
+    given-names: Adeel
+repository-code: "https://github.com/AdeelFarooq-Bioinfo/Bacterial-StressomeDB"
+url: "https://bacterial-stressomedb.online/"
+license: MIT

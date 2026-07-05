@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Bacterial StressomeDB framework</title>
+<desc id="desc">Conceptual diagram showing major bacterial stress response systems integrated in StressomeDB.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#eef6ff"/></linearGradient>
+  <linearGradient id="core" x1="0" x2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#c7f9e5"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.18"/></filter>
+  <style>
+    .title{font:700 42px Arial,Helvetica,sans-serif;fill:#0f172a}.sub{font:500 18px Arial,Helvetica,sans-serif;fill:#475569}.box{stroke:#0f172a;stroke-width:2;rx:18;filter:url(#shadow)}.boxtext{font:700 20px Arial,Helvetica,sans-serif;fill:#0f172a}.small{font:500 15px Arial,Helvetica,sans-serif;fill:#334155}.arrow{stroke:#475569;stroke-width:3;fill:none;marker-end:url(#arr)}.core{fill:url(#core);stroke:#0f766e;stroke-width:4;filter:url(#shadow)}
+  </style>
+  <marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#475569"/></marker>
+</defs>
+<rect x="0" y="0" width="1200" height="760" fill="url(#bg)"/>
+<text x="600" y="58" text-anchor="middle" class="title">Bacterial StressomeDB Framework</text>
+<text x="600" y="92" text-anchor="middle" class="sub">Curated stress response proteins, functional categories, sequence resources, and infection fitness evidence</text>
+<rect x="390" y="210" width="420" height="310" rx="40" class="core"/>
+<text x="600" y="315" text-anchor="middle" class="boxtext">STRESSOME CORE</text>
+<text x="600" y="350" text-anchor="middle" class="small">Regulators • enzymes • transporters</text>
+<text x="600" y="378" text-anchor="middle" class="small">repair systems • fitness evidence</text>
+<circle cx="600" cy="430" r="18" fill="#2563eb"/><circle cx="550" cy="420" r="8" fill="#3b82f6"/><circle cx="650" cy="410" r="8" fill="#3b82f6"/><circle cx="585" cy="470" r="8" fill="#3b82f6"/><circle cx="635" cy="465" r="8" fill="#3b82f6"/>
+<rect x="80" y="150" width="260" height="100" class="box" fill="#fee2e2"/><text x="210" y="192" text-anchor="middle" class="boxtext">Oxidative stress</text><text x="210" y="222" text-anchor="middle" class="small">H₂O₂ / ROS detoxification</text>
+<rect x="470" y="130" width="260" height="100" class="box" fill="#ede9fe"/><text x="600" y="172" text-anchor="middle" class="boxtext">Heat shock</text><text x="600" y="202" text-anchor="middle" class="small">Chaperones and proteases</text>
+<rect x="860" y="150" width="260" height="100" class="box" fill="#dcfce7"/><text x="990" y="192" text-anchor="middle" class="boxtext">Osmotic stress</text><text x="990" y="222" text-anchor="middle" class="small">Salt and ion balance</text>
+<rect x="80" y="530" width="260" height="100" class="box" fill="#ffedd5"/><text x="210" y="572" text-anchor="middle" class="boxtext">Acid adaptation</text><text x="210" y="602" text-anchor="middle" class="small">Low pH survival</text>
+<rect x="470" y="560" width="260" height="100" class="box" fill="#dbeafe"/><text x="600" y="602" text-anchor="middle" class="boxtext">Multidrug stress</text><text x="600" y="632" text-anchor="middle" class="small">Efflux and biocide tolerance</text>
+<rect x="860" y="530" width="260" height="100" class="box" fill="#fef9c3"/><text x="990" y="572" text-anchor="middle" class="boxtext">Metal homeostasis</text><text x="990" y="602" text-anchor="middle" class="small">Cu / As / Hg / Ag</text>
+<rect x="70" y="330" width="270" height="90" class="box" fill="#f3e8ff"/><text x="205" y="368" text-anchor="middle" class="boxtext">Envelope stress</text><text x="205" y="396" text-anchor="middle" class="small">Cell wall and membrane integrity</text>
+<rect x="860" y="330" width="270" height="90" class="box" fill="#fce7f3"/><text x="995" y="368" text-anchor="middle" class="boxtext">Detoxification</text><text x="995" y="396" text-anchor="middle" class="small">Protective enzymes</text>
+<path class="arrow" d="M340 205 C390 230,430 250,470 280"/><path class="arrow" d="M600 230 L600 210"/><path class="arrow" d="M860 205 C810 230,770 250,730 280"/>
+<path class="arrow" d="M340 575 C400 520,430 500,470 480"/><path class="arrow" d="M600 560 L600 520"/><path class="arrow" d="M860 575 C800 520,770 500,730 480"/>
+<path class="arrow" d="M340 375 L390 375"/><path class="arrow" d="M860 375 L810 375"/>
+<text x="600" y="715" text-anchor="middle" class="sub">StressomeDB links stress categories to curated annotations, protein sequences, taxonomic metadata, and infection fitness evidence.</text>
+</svg>
