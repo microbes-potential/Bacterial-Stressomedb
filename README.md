@@ -242,7 +242,7 @@ Bacterial StressomeDB supports:
 
 If you use Bacterial StressomeDB, please cite:
 
-> Farooq A., et al. **Bacterial StressomeDB: a curated SQLite resource for bacterial stress response systems and comparative stressome architecture across clinically important pathogens.** Manuscript in preparation.
+> Farooq A., et al. **Modular Stressome Architecture in Human-Associated Bacterial Pathogens: Bacterial StressomeDB** Manuscript in preparation.
 
 See also [`CITATION.cff`](CITATION.cff).
 
