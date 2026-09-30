@@ -39,7 +39,8 @@ This GitHub repository provides the official downloadable **SQLite release** of 
 | Feature | Current release |
 |---|---:|
 | Curated metadata records | 18,391 |
-| Unique nonredundant protein sequences | 12,046 |
+| Unique nonredundant protein sequences | 14,603 |
+| 17 atomic stress-response labels | 17 |
 | Curated stress category labels | 24 |
 | Higher order functional groups | 9 |
 | Bacterial taxa | 1,466 |
