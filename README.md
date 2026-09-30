@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://bacterial-stressomedb.online/"><img src="https://img.shields.io/badge/Web-bacterial--stressomedb.online-0f766e?style=for-the-badge" alt="Website"></a>
   <img src="https://img.shields.io/badge/Database-SQLite-blue?style=for-the-badge" alt="SQLite database">
-  <img src="https://img.shields.io/badge/Version-v1.0-brightgreen?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/Version-v1.0.0-brightgreen?style=for-the-badge" alt="Version">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"></a>
   <a href="CITATION.cff"><img src="https://img.shields.io/badge/Citation-CITATION.cff-orange?style=for-the-badge" alt="Citation"></a>
 </p>
